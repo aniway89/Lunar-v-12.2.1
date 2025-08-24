@@ -1,0 +1,56 @@
+hello bro if you download this folder means you want to use this ai.
+i think before we start to install this you must know few things about this.
+
+So this is not a proper ai if expect like it can do Code,Write essay, make soemthing for you, or make him self better, any of these thing not work because this use other lib to oprate and only the speech to text is made by my self which basically use the shroem to do that, Ya can ask me realtime question it will replay you can chat with this it will responce. 
+
+
+So far so good it will assist you but make sure to talk him in english for better accuracy.
+if you thing you can run a ai assistent on you patato pc, bro get out of your dream you need atleast nasa pc to do that.
+so much talk lets dive in to installation.
+
+>>There are many library present in the requirement.txt you have to intall them one by one. OH! wait before that you need to install the pthon 3.10.11 and don't worry i give that file too look at the python version folder.
+Nice hope you install the python now if you're using the vs code, then open any python file you will see a {}Python in the botom of the vs code taskbar look bro look 
+you have to follow the Turiol folder there are the images that explain how to create environmnt.
+
+after finishing up all these stuff then start install in all the lib in the terminal by sing this command
+>>>pip install <lib name>
+here change the lib name after install on  of libs make sure to cross check the instalation if you see some thing like the import lib have different color then install theat lib.
+
+
+hope you do so far now go to SpeechToText python file
+
+in the line 60 change the file location
+here how, look this is the file location according to mine dir
+
+Link = "file:///d:/Lunar/Data/Voice.html"
+ 
+basically at this location d:/A-ver1/Lunar/Data/Voice.html mine voice.html file is save you have to change according to fiel path look, only this part you have to change
+
+d:/A-ver1/
+
+here the { d: } is my Disk name you can replace it with yours like if my Disk name is C then use "C:"
+
+now the "/" is use to tell the system that that this disk or folder contain this file menas after this you need to type this " /Lunar/Data/Voice.html "
+so far you just have to change you disk name and if you put this folder i some other folder then just add the folder name before the lunar liek " d:/Folder/Lunar/Data/Voice.html "
+like this.
+
+last thing you have to do is grab you api keys 
+First is the Cohere API this is free you can got to browser and search for Cohere API make you account and get your free api and same for Groq Api its not grok its Groq hope you see the difference so search for groq api and grab your api and pase it in the .env folder
+
+COHERE_API_KEY = Your APi
+Username = Your Name
+AssistantName = Lunar
+GroqAPIKey = Groq APi
+AssistantVoice = en-CA-LiamNeural
+InputLanguage = en
+
+
+here i give you fredom to change my ai name, like you can give him anyname you like. 
+
+
+in the last i can say that this may be not the perfect because i dont now how to create ai its jsut the simple api based chatbot but better
+It can open and close app for you liek insta, facebook and anyother app dosent matter this that is install or not, it can open any software you install in your system.
+it can search in realtime data.
+it can play song on youtube. Just make sure you say Play song in sentence.
+
+and after these make sure to speak slow and clear closer to mic will work more accurate. sometime it jsut broke so restart the file and bye! :) 
