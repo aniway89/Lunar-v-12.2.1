@@ -58,7 +58,7 @@ Change `d:/A-ver1/` to your folder location.
 * Example: If your folder is in `C:`, then use:
 
   ```
-  C:/Lunar/Data/Voice.h
+  C:/Lunar/Data/Voice.html
   ```
 * If you put it in another folder, add that folder name too:
 
@@ -107,6 +107,7 @@ InputLanguage = en
 ---
 
 ✅ That’s it! You’re ready to use your AI Assistant.
+
 
 
 
